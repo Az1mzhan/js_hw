@@ -1,0 +1,17 @@
+{
+  "name": "lecture24",
+  "version": "1.0.0",
+  "description": "test init",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server -c-1 ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
