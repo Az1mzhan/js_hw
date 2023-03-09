@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Azimzhan",
+      "surname": "Mussabayev",
+      "age": 19
+    },
+    {
+      "id": 1,
+      "name": "Bauyrzhan",
+      "surname": "Zhonkebayev",
+      "age": 18
+    },
+    {
+      "id": 2,
+      "name": "Nadir",
+      "surname": "Kuat",
+      "age": 20
+    },
+    {
+      "id": 3,
+      "name": "Akerke",
+      "surname": "Orynbasarova",
+      "age": 18
+    }
+  ],
+  "posts": [
+    {
+      "id": 0,
+      "text": "Lorem ipsum"
+    },
+    {
+      "id": 1,
+      "text": "Senatus Populusque Romanus"
+    },
+    {
+      "id": 2,
+      "text": "AEDIS DIVI AVGUSTI RESTITUO"
+    }
+  ]
+}
