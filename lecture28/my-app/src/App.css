@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&family=Ubuntu:wght@300;500&display=swap");
+body {
+  background-color: rgb(35, 35, 35);
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+
+.search-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2.5vw;
+}
+.search-component input {
+  width: 15vw;
+  margin-top: 5vh;
+}
+.search-component ul {
+  width: 15vw;
+  padding: 0.5vw;
+  border-right: 0.125vh solid white;
+}
+.search-component ul li {
+  padding-top: 2.5vh;
+  list-style-type: none;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=App.css.map */
