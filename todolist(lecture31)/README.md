@@ -7,7 +7,7 @@ The app was composed via create-react-app.
 - [x] Mark as important.
 
 ### Author: @Az1mzhan
-GitHub repo:
+GitHub repo: https://github.com/Az1mzhan/js_hw/tree/main/todolist(lecture31)
 
 To launch the app, type `npm start` in the terminal at the project's root directory.
 
