@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&family=Ubuntu:wght@300;500&display=swap");
+body {
+  background-color: rgb(35, 35, 35);
+  color: white;
+}
+
+.todolist-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todolist-block button {
+  background-color: inherit;
+  color: white;
+  border: 0.125vw solid white;
+  font-size: 1rem;
+  transition: background-color 0.25s, color 0.25s;
+  height: 3.75vh;
+}
+.todolist-block button:not(.mark-item-btn) {
+  width: 3.75vh;
+  padding: 0 0.25vh;
+}
+.todolist-block button:hover {
+  background-color: white;
+  color: rgb(35, 35, 35);
+}
+.todolist-block input {
+  width: 15vw;
+  font-family: "Ubuntu", sans-serif;
+}
+.todolist-block .add-item-btn {
+  margin-top: 3.75vh;
+}
+.todolist-block h2 {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+}
+.todolist-block ul {
+  padding: 0;
+}
+.todolist-block ul li {
+  list-style-type: none;
+}
+.todolist-block ul li h4 {
+  display: inline-block;
+  width: 15vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mark-item-btn {
+  margin-left: 0.5vw;
+}
+
+/*# sourceMappingURL=App.css.map */

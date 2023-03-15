@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": 0,
+      "task": "Make a breakfast",
+      "isMarked": false
+    },
+    {
+      "id": 1,
+      "task": "Eat breakfast",
+      "isMarked": false
+    },
+    {
+      "id": 2,
+      "task": "Prepare an outfit",
+      "isMarked": false
+    },
+    {
+      "id": 3,
+      "task": "Prepare a backpack",
+      "isMarked": false
+    },
+    {
+      "id": 4,
+      "task": "Go to uni",
+      "isMarked": false
+    }
+  ]
+}
