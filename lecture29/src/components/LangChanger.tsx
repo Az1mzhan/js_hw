@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {FC, useState} from "react";
 import '../App.css';
 
 enum Lang {
@@ -7,7 +7,7 @@ enum Lang {
     EN = "en"
 }
 
-export const LangChanger = () => {
+export const LangChanger: FC = () => {
     const [lang, setLang] = useState<Lang>(Lang.RU);
     const [text, setText] = useState<string>("Добро пожаловать");
 
