@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&family=Ubuntu:wght@300;500&display=swap");
+body {
+  background-color: rgb(35, 35, 35);
+}
+
+button {
+  width: 12.5vw;
+  padding: 0.625vw;
+  border: 0.025vw solid rgb(35, 35, 35);
+  box-shadow: 0 1vh 0.125vh 0 white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: lighter;
+  font-size: 1.25rem;
+  background-color: white;
+  transition: opacity 0.25s, box-shadow 0.25s;
+}
+button:hover {
+  opacity: 0.75;
+}
+button:active {
+  box-shadow: 0 0.5vh 0.125vh 0 white;
+}
+
+.App {
+  font-family: "Montserrat", sans-serif;
+}
+
+.cnt-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cnt-block h2 {
+  font-size: 2.25rem;
+  color: white;
+}
+
+.cnt-btn-block {
+  display: flex;
+  gap: 2.5vw;
+  margin-top: 2.5vh;
+}
+
+.name-input-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+  margin-top: 5vh;
+}
+.name-input-block ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
+  list-style-type: none;
+  color: white;
+}
+.name-input-block ul li {
+  margin-top: 2vh;
+  padding: 0;
+}
+.name-input-block input {
+  width: 15vw;
+  height: 3.75vh;
+}
+
+/*# sourceMappingURL=App.css.map */
